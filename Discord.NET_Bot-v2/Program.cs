@@ -32,9 +32,9 @@ namespace Discord.NET_Bot_v2
       client.MessageReceived += CommandsHandler;
       client.Log += Log;
 
-      //var token = "d7401b9ca040fc6fe3f5888ef36a21e49eaae8cb0db0dbcf50d7f74efb3df55e";
-      //var token = "3LEZfUjUWm2r1GKLUWcSfaxMLfzcy4et";
-      var token = "ODc1OTg2MDY2MTcwMDczMTE4.YRdfmQ.SWRtBM9YyTCs4jVR-dGdTHnPz8w";
+      //var token = "";
+      //var token = "";
+      var token = "";
 
       await client.LoginAsync(TokenType.Bot, token);
       await client.StartAsync();
