@@ -32,9 +32,7 @@ namespace Discord.NET_Bot_v2
       client.MessageReceived += CommandsHandler;
       client.Log += Log;
 
-      //var token = "";
-      //var token = "";
-      var token = "";
+      var token = "***";
 
       await client.LoginAsync(TokenType.Bot, token);
       await client.StartAsync();
